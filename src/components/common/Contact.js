@@ -7,7 +7,7 @@ const Contact = () => {
     <div className='relative h-screen box-border '>
         <div className='absolute top-[-7%] -z-10 bg-indigo-950 h-[55%] w-full '></div>
 
-        <div className='z-50 mt-[50px] flex md:flex-row flex-col w-[90%] lg:w-[60%]  mx-auto rounded-md shadow-sm pb-6 md:shadow-black  '>
+        <div className='z-50 mt-[50px] flex md:flex-row flex-col w-[90%] lg:w-[60%]  mx-auto rounded-md shadow-sm md:shadow-black  '>
 
             <div className=' flex flex-col items-center gap-2 md:gap-3 py-3 px-4 md:w-[45%] bg-white text-black md:rounded-l-md'>
                 <h1 className='text-4xl md:text-5xl text-red-700 font-bold '>CONTACT US </h1>
