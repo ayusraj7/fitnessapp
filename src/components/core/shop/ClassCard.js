@@ -3,9 +3,9 @@ import Button from '../../common/Button'
 
 const ClassCard = ({element}) => {
   return (
-    <div className='bg-gray-700 rounded-md h-[150px] border items-center border-gray-800 flex flex-row justify-between pr-3'>
-        <img src={element.img} alt="" className='rounded-l-md h-[150px] w-[150px]' />
-        <div className='flex flex-col gap-1 items-center'>
+    <div className='bg-gray-700 rounded-md h-auto md:h-[150px] border items-center md:gap-0 pb-3 md:pb-0 border-gray-800 flex flex-col md:flex-row justify-between  gap-3  md:pr-3'>
+        <img src={element.img} alt="" className='rounded-l-md h-[200px] md:h-[150px] w-full md:w-[150px]' />
+        <div className='flex flex-col gap-1 items-center pl-2 md:pl-0'>
             <h1 className='text-slate-300 text-[16px] font-bold'>{element.heading}</h1>
             <p className='text-slate-300 text-sm'>{element.for}</p>
         </div>

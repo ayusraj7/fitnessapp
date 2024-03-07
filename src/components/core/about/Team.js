@@ -28,17 +28,17 @@ const trainer=[
 
 const Team = () => {
   return (
-    <div className='bg-white flex flex-col  text-white w-full p-5 '>
+    <div className='bg-white flex flex-col  text-white w-full sm:p-5 '>
         
-        <div className='w-10/12 md:w-8/12 mx-auto h-full  flex flex-col  gap-3 p-2 mt-10'>
+        <div className='w-11/12 md:w-8/12 mx-auto h-full  flex flex-col  gap-3 md:p-2 mt-10'>
             {/* headline */}
             <div className=' border-[#6b6060] border-b-2 '>
-                <h1 className='font-Inter text-[#f7ffff] text-red-800 text-5xl font-semibold my-3'>The Trainers</h1>
+                <h1 className='font-Inter text-red-800 text-5xl font-semibold my-3'>The Trainers</h1>
                 <div className='h-3 bg-[#a69494] w-[35%]'></div>
             </div>
 
             {/* body */}
-            <div className='h-full w-full relative bg-transparent font-mono text-zinc-300 flex flex-col gap-10 mt-[80px]'>
+            <div className='h-full w-full relative bg-transparent font-mono text-zinc-300 flex flex-col gap-10 mt-11 sm:mt-[80px] md:pb-0 pb-7 '>
                 {
                     trainer.map((ele,index)=>(
                         <TeamCard key={index} name={ele.name} type={ele.type} desc={ele.desc} img={ele.img}/>

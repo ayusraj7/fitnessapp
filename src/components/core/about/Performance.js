@@ -16,12 +16,12 @@ const Performance = () => {
                 <div className='flex flex-col lg:w-[45%] '>
                     <h1 className='text-[#2a3281] text-[46px] font-bold'>MAXIMIZE YOUR LIFE</h1>
                     <p className='text-[21px] text-[#141e35] mt-4'>Stop waiting to get in <span className='text-red-600'>shape!</span></p>
-                    <p  className='text-[21px] text-[#141e35]'>I will help you sculpt the body that fits your lifestyle and I'll help
+                    <p  className='text-[18px] md:text-[21px] text-[#141e35]'>I will help you sculpt the body that fits your lifestyle and I'll help
                             you maintain it through all aspects of life. Why give up the things you love to do?
                             I will walk you through every step of transforming your body from nutrition to exercise all 
                             the way down to your molecular structure.
                     </p>
-                    <p className='text-[21px] text-[#141e35] mt-2'>
+                    <p className='text-[18px] md:text-[21px] text-[#141e35] mt-2'>
                     Personalization is key to getting the best possible results, which is why my workout programs 
                     are modified to fit your individual fitness goals and fitness level.
                         Whether you're new to working out or you're an experienced fitness buff my <span className='text-red-600'>fitness masterclass</span> is designed for you to achieve 

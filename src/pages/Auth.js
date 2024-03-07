@@ -21,7 +21,7 @@ const Auth = () => {
        }
     }
   return (
-    <div className='h-auto pt-[60px] md:pt-0 md:h-full w-full bg-violet-login flex justify-center items-center'>
+    <div className='h-auto pt-[60px] md:pt-0 md:h-[100vh] w-full bg-violet-login flex justify-center items-center'>
         <div className='bg-white w-[90%] lg:w-[60%]  md:h-[450px] rounded-md flex md:flex-row flex-col-reverse md:my-0 my-11'>
             {
                 page ==='/login' && (

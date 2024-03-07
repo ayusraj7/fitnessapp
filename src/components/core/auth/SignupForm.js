@@ -23,14 +23,14 @@ const SignupForm = () => {
     }
   return (
     <div className='flex flex-col gap-0 px-6 w-[100%] overflow-hidden'>
-        <div className='flex justify-between items-center'>
+        <div className='flex justify-between items-center gap-3'>
             <div className='text-2xl sm:text-4xl text-gray-600  font-inter'>SignUp
                 <div className='w-[35px] bg-violet-700 h-1'></div>
             </div>
             <div className='flex border-2 border-slate-500 text-gray-300 bg-slate-500  gap-x-1 my-5 rounded-full '>
-                <label htmlFor="student" className={`text-[18px] border-slate-500 border-2   px-2 rounded-full ${type==='student' && 'bg-slate-600 rounded-full'}`} onClick={(e)=>changetab('student')}>Student
+                <label htmlFor="student" className={`text-[16px] sm:text-[18px] border-slate-500 border-2   px-2 rounded-full ${type==='student' && 'bg-slate-600 rounded-full'}`} onClick={(e)=>changetab('student')}>Student
                 <input type="radio" name="student" id="student" className='[all:unset]'/></label>
-                <label htmlFor="instructor" className={`text-[18px] border-l border-2 border-slate-500 rounded-full bg-slate-500 px-2 ${type==='instructor' && 'bg-slate-600 rounded-full'}`} onClick={(e)=>changetab('instructor')}>Instructor
+                <label htmlFor="instructor" className={`text-[16px] sm:text-[18px] border-l border-2 border-slate-500 rounded-full bg-slate-500 px-2 ${type==='instructor' && 'bg-slate-600 rounded-full'}`} onClick={(e)=>changetab('instructor')}>Instructor
                 <input type="radio" name="instructor" id="student" className='[all:unset]' /></label>
                 
             </div>

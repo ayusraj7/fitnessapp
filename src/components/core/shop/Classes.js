@@ -18,7 +18,7 @@ const classes=[
     },
     {
         img:cardio,
-        heading:'Muscle Building with Cardio',
+        heading:'Muscle Building + Cardio',
         for:'For Boys',
         timing:'8:00am-11:00am | 5:00pm-10pm',
         days:'Mon-Sat',

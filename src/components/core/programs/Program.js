@@ -10,10 +10,10 @@ const Program = () => {
   return (
     <div className=' flex gap-10 flex-col bg-gray-900 text-white pb-11'>
         <div className='relative'>
-            <img src={programimg} alt="" className='w-screen' />
-            <h1 className='absolute text-[60px] top-[30%] left-[40%] bg-white p-5 font-bold text-amber-400 leading-[60px]'>PROGRAMS</h1>
+            <img src={programimg} alt="" className='w-screen md:h-full h-[200px]' />
+            <h1 className='absolute text-4xl md:text-[60px] sm:top-[20%] top-[30%] left-[20%] sm:left-[40%] bg-white p-3 md:p-5 font-bold text-amber-400 md:leading-[60px]'>PROGRAMS</h1>
         </div>
-        <div className='flex gap-2 max-w-[1024px] w-10/12 mx-auto flex-wrap'>
+        <div className='flex justify-center gap-8 sm:gap-2 max-w-[1024px] md:w-10/12 mx-auto flex-wrap'>
             <div className='w-[320px] flex flex-col gap-5 items-center'>
                 <img src={cardio} alt="" className='h-[150px] w-[150px] rounded-[50%]'/>
                 <h1 className='text-[28px]  text-[#bbd3d6] font-bold leading-7'>CARDIO</h1>

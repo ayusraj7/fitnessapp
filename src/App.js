@@ -9,7 +9,7 @@ import Program from './components/core/programs/Program';
 import Shop from './pages/Shop'
 function App() {
   return (
-    <div className='w-screen h-screen flex-col relative p-0 m-0'>
+    <div className='w-screen  flex-col relative p-0 m-0'>
       <Navbar/>
       <div className='h-[60px]'></div>
       <Routes>

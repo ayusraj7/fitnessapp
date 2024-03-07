@@ -8,14 +8,14 @@ const TeamCard = ({name,type,desc,img}) => {
     
 
   return (
-    <div className='rounded-lg   lg:w-[calc(100vw-15vw)] lg:h-[480px] mx-auto flex lg:flex-row flex-col lg:-ml-[15%]'>
+    <div className='rounded-lg  lg:w-[calc(100vw-15vw)] lg:h-[480px] mx-auto flex lg:flex-row flex-col lg:-ml-[15%]'>
         <img  className=' lazy w-full lg:w-1/2  h-[250px] lg:h-full object-fill' src={img} alt="" />
-        <div className='lg:w-1/2 bg-[#2d2e2d] p-5 lg:px-[10%]'>
-            <h2 className=' text-[#e8b857] font-Inter text-3xl font-senibold mt-4'>{name}</h2>
-            <p className='  border-[#5a5454] border-b-2 -mt-2 text-[#ebffff]'>{type}</p>
-            <div className='w-[95%] mt-5 flex flex-col gap-3'>
-                <p className='text-sm text-[#f8ebeb] '>{text1}</p>
-                <p className='text-sm text-[#f8ebeb] '>{text2}</p>
+        <div className='lg:w-1/2 bg-[#2d2e2d] sm:p-5 p-2 lg:px-[10%]'>
+            <h2 className=' text-[#e8b857] font-Inter text-3xl font-senibold sm:mt-4'>{name}</h2>
+            <p className='  border-[#5a5454] border-b-2 sm:-mt-2 text-[#ebffff]'>{type}</p>
+            <div className='sm:w-[95%] mt-5 flex flex-col  gap-1 sm:gap-3'>
+                <p className='text-[12px] sm:text-sm text-[#f8ebeb] '>{text1}</p>
+                <p className='text-[12px] sm:text-sm text-[#f8ebeb] '>{text2}</p>
             </div>
             {
                 type!=='Founder' && (

@@ -14,7 +14,7 @@ const Health = () => {
         <div className='mt-8'>
             <h1 className='text-[#2a3281] text-[30px]  font-bold'>HEALTH & NUTRITION</h1>
             <div className='mt-6 text-[#535b6c] w-[90%] flex flex-col gap-8 '>
-                <p className='text-[21px]'>Everyday food choices are guided by a number of considerations--emotions,habits,fast-paced
+                <p className='text-[18px] md:text-[21px]'>Everyday food choices are guided by a number of considerations--emotions,habits,fast-paced
                     lifestyles,traditions,social influences,religion,and pleasure. Let me help you feel confident in your diet choices while still 
                     enjoying the foods that you love with one-on-one nutrition counseling sessions. Whether your goal is to lose weight, lower cholesterol,
                     or optimize your health, having me as your private nutrition coach provides the support you need to stay on track and keep yourself 
