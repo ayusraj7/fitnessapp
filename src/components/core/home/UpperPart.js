@@ -4,7 +4,7 @@ import Button from '../../common/Button'
 const UpperPart = () => {
   return (
     <div className='bg-[rgb(15,11,32)]  w-screen md:h-full h-[115vh]'>
-        <div className='flex md:flex-row-reverse  flex-col max-w-[1024px] h-[calc(100vh-60px)] md:px-0 px-3 md:w-10/12 mx-auto md:gap-0 gap-11 md:pt-0 pt-8 '>
+        <div className='flex md:flex-row  flex-col max-w-[1024px] h-[calc(100vh-60px)] md:px-0 px-3 md:w-10/12 mx-auto md:gap-0 gap-11 md:pt-0 pt-8 '>
             <div className='md:w-[60%] flex flex-col justify-center gap-5 relative'>
                 <p className='w-fit border-b-8 border-red-700 inline-block font-semibold text-red-700'>THE FITNESS</p>
                 <h1 className='text-white font-bold  leading-[35px] sm:leading-[60px] text-2xl sm:text-3xl md:text-[45px]'>BUILD PERFECT BODY SHAPE FOR GOOD AND HEALTHY LIFE</h1>
