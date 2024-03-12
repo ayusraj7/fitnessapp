@@ -4,12 +4,24 @@ const app = express();
 
 
 const dotenv = require("dotenv");
+dotenv.config();
 
-// Setting up port number
-const PORT = process.env.PORT || 4000;
+const cors=require('cors');
+app.use(cors());
+
 
 // Loading environment variables from .env file
-dotenv.config();
+
+// Setting up port number
+const PORT =4000;
+
+console.log('PORT',PORT)
+
+
+// Listening to the server
+app.listen(PORT, () => {
+	console.log(`App is listening at ${PORT}`);
+});
 
 // Connecting to database
 const databaseConnect=require('./config/database')
@@ -24,7 +36,8 @@ app.get("/", (req, res) => {
 	return res.send(`<h1>all done</h1>`)
 });
 
-// Listening to the server
-app.listen(PORT, () => {
-	console.log(`App is listening at ${PORT}`);
-});
+
+
+//routes
+const authRoutes=require('./routes/Auth');
+app.use('/api/v1',authRoutes);

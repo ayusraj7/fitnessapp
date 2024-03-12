@@ -6,22 +6,42 @@ const userSchema=new mongoose.Schema({
         required:'true'
     },
     mobileno:{
-        type:number,
+        type:Number,
         required:'true',
     },
     email:{
         type:String,
         required:true,
     },
+    accountType:{
+        type:String,
+        enum:['member','trainer'],
+        required:true,
+    },
     password:{
         type:String,
         required:true
     },
-    confirmPassword:{
+    resetToken:{
         type:String,
-        required:true,
-    }
+    },
+    expireToken:{
+        type:Date,
+    },
+    additionalDetails:{
+        type:mongoose.Schema.Types.ObjectId,
+        ref:'AdditionalDetails'
+    },
+    classes:[{
+        type:mongoose.Schema.Types.ObjectId,
+        ref:'Class'
+    }],
+    Products:[{
+        type:mongoose.Schema.Types.ObjectId,
+        ref:'Product'
+    }]
+
 },{timestamps:true}
 )
 
-module.exports=new mongoose.Model('User',userSchema);
+module.exports=mongoose.model('User',userSchema);
